@@ -846,6 +846,19 @@ input, select, textarea {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 }
 
+.old-price {
+	text-decoration: line-through;
+	font-size: 1.2em;
+		color: #e74c3c;
+}
+.price {
+
+		color: #e6f1f1;
+
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
 .discount-badge {
     display: inline-block;
     background: linear-gradient(45deg, #ff6b6b, #ee5a24);
