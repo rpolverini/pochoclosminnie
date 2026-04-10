@@ -1,331 +1,236 @@
-
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Pochoclos Minnie &mdash; 100% Naturales, caseros y artesanales</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
-
-  <!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FREEHTML5.CO
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
-
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
-
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Merriweather:300,400italic,300italic,400,700italic' rel='stylesheet' type='text/css'>
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Simple Line Icons -->
-	<link rel="stylesheet" href="css/simple-line-icons.css">
-	<!-- Datetimepicker -->
-	<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
-	<!-- Flexslider -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-
-	<link rel="stylesheet" href="css/style.css">
-
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO & Meta Tags -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Pochoclos Minnie | Carros de Pochoclos para Eventos en Mar del Plata</title>
+    <meta name="description" content="Llevamos la magia del pochoclo recién hecho a tu evento. Alquiler de carros de pochoclos para cumpleaños, fiestas y eventos corporativos en Mar del Plata y zona.">
+    <meta name="keywords" content="pochoclos, eventos, mar del plata, alquiler pochoclera, carros de pochoclos, fiestas infantiles">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Pochoclos Minnie | El sabor que hace brillar tus eventos">
+    <meta property="og:description" content="Servicio premium de pochoclos artesanales para todo tipo de celebraciones. Calidad, aroma y diversión garantizada.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pochoclosminnie.com.ar/">
+    
+    <!-- Tailwind CSS (CDN para prototipado rápido y performance) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    
     <style>
-	/* Ensure the modal dialog adjusts to screen size */
-	@media (max-width: 768px) {
-		.modal-dialog {
-			width: 90% !important; /* Set width to 90% of screen on mobile */
-			margin: 10px auto; /* Center the modal */
-		}
-	}
-
-	/* Ensure the modal content does not overflow */
-	.modal-content {
-		max-height: 90vh; /* Prevents content from being too large */
-		overflow-y: auto; /* Adds scroll if needed */
-	}
-
-	/* Make sure the image inside the modal scales properly */
-	.modal-body img {
-		width: 100% !important; /* Ensures image fits inside modal */
-		height: auto;
-		max-height: 80vh; /* Prevents it from being too large */
-		display: block;
-		margin: 0 auto;
-	}
-
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .hero-gradient { background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 100%); }
+        .btn-whatsapp { background-color: #25D366; transition: all 0.3s ease; }
+        .btn-whatsapp:hover { background-color: #128C7E; transform: translateY(-2px); }
+        .accent-border { border-left: 4px solid #EF4444; }
     </style>
+</head>
+<body class="bg-white text-gray-900 antialiased">
 
-	</head>
-	<body>
+    <!-- Header -->
+    <header class="fixed w-full top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-red-500 rounded-full flex items-center justify-center">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.344l-.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z"/></svg>
+                </div>
+                <span class="font-extrabold text-xl tracking-tighter uppercase italic">Pochoclos Minnie</span>
+            </div>
+            <a href="https://wa.me/5492234361035" class="hidden md:block font-bold text-sm bg-gray-900 text-white px-6 py-2 rounded-full hover:bg-red-500 transition-colors">
+                PEDIR PRESUPUESTO
+            </a>
+        </nav>
+    </header>
 
-	<div id="fh5co-container">
-		<div id="fh5co-home" class="js-fullheight" data-section="home">
+    <main>
+        <!-- Hero Section (Atención) -->
+        <section class="hero-gradient pt-32 pb-20 md:pt-48 md:pb-32 px-6">
+            <div class="container mx-auto max-w-5xl text-center">
+                <span class="inline-block bg-red-100 text-red-600 px-4 py-1 rounded-full text-sm font-bold mb-6">Volvé a ser chico, pochoclo a pochoclo.</span>
+                <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-8 leading-tight">
+                    El sabor que hace <br class="hidden md:block"> <span class="text-red-500">brillar</span> tus eventos.
+                </h1>
+                <p class="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
+                    Llevamos la magia del pochoclo recién hecho, dulce y salado, directamente a tu fiesta. Aroma irresistible y calidad artesanal garantizada.
+                </p>
+                <div class="flex flex-col md:flex-row gap-4 justify-center">
+                    <a href="https://wa.me/5492234361035" class="btn-whatsapp text-white font-bold px-8 py-4 rounded-xl flex items-center justify-center gap-2 text-lg shadow-lg">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.484 8.412-.003 6.557-5.338 11.892-11.893 11.892-1.997-.001-3.951-.5-5.688-1.448l-6.309 1.656zm6.224-3.82l.303.18c1.397.83 3.007 1.27 4.657 1.271 5.033 0 9.13-4.097 9.133-9.134.002-2.438-.946-4.731-2.67-6.456-1.724-1.724-4.015-2.672-6.452-2.672-5.033 0-9.132 4.098-9.134 9.135-.001 1.744.492 3.443 1.424 4.918l.204.323-.814 2.973 3.052-.801z"/></svg>
+                        CONSULTAR FECHAS
+                    </a>
+                    <a href="tel:02234361035" class="bg-white border-2 border-gray-900 text-gray-900 font-bold px-8 py-4 rounded-xl hover:bg-gray-50 transition-colors flex items-center justify-center">
+                        LLAMAR AHORA
+                    </a>
+                </div>
+            </div>
+        </section>
 
-			<div class="flexslider">
-				
-				<div class="fh5co-overlay"></div>
-				<div class="fh5co-text">
-					<div class="container">
-						<div class="row">
-							<h1 class="to-animate">Minnie</h1>
-							<h2 class="to-animate">Pochoclos Artesanales <span>y con amor</span> </h2>
-						</div>
-					</div>
-				</div>
-			  	<ul class="slides">
-			   	<li style="background-image: url(fotos/slide1.png);" data-stellar-background-ratio="0.5"></li>
-			   	<li style="background-image: url(fotos/slide2.png);" data-stellar-background-ratio="0.5"></li>
-			   	<li style="background-image: url(fotos/slide4.png);" data-stellar-background-ratio="0.5"></li>
-			  	</ul>
+        <!-- Interés -->
+        <section class="py-24 px-6 bg-white">
+            <div class="container mx-auto max-w-6xl">
+                <div class="grid md:grid-cols-2 gap-16 items-center">
+                    <div class="relative">
+                        <div class="aspect-square rounded-3xl overflow-hidden shadow-2xl" style="background-image: url('./imgs/slide1.png'); background-size: cover; background-position: center;">
+                            <div class="w-full h-full flex items-center justify-center text-white italic font-bold text-4xl p-12 border-8 border-white bg-black/30">
+                                <span class="transform -rotate-12">Calidad Artesanal</span>
+                            </div>
+                        </div>
+                        <div class="absolute -bottom-6 -right-6 bg-red-500 text-white p-8 rounded-2xl shadow-xl hidden md:block">
+                            <p class="text-3xl font-black">100%</p>
+                            <p class="text-sm font-bold uppercase tracking-widest">Natural</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="text-4xl font-extrabold mb-6 leading-tight">Más que un snack, una experiencia para los sentidos.</h2>
+                        <p class="text-gray-600 text-lg mb-8">
+                            En Pochoclos Minnie transformamos cualquier reunión en un momento especial. Utilizamos materias primas premium para asegurar un sabor auténtico y un aroma que enamora a primera vista.
+                        </p>
+                        <ul class="space-y-4">
+                            <li class="flex items-start gap-3">
+                                <div class="mt-1 w-6 h-6 text-red-500">
+                                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold">Materia Prima de Primera</h3>
+                                    <p class="text-gray-500">Maíz pisingallo seleccionado y aceites de máxima calidad.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <div class="mt-1 w-6 h-6 text-red-500">
+                                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold">Servicio en Vivo</h3>
+                                    <p class="text-gray-500">El pochoclo recién hecho tiene un gusto inigualable.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-			</div>
-			
-		</div>
-		
-		<div class="js-sticky">
-			<div class="fh5co-main-nav">
-				<div class="container-fluid">
-					<div class="fh5co-menu-1">
-						<a href="#" data-nav-section="home">Home</a>
-						<a href="#" data-nav-section="about">Acerca de Nosotros</a>
-					</div>
-					<div class="fh5co-logo">
-						<a href="index.html">Pochoclos Minnie</a>
-					</div>
-					<div class="fh5co-menu-2">
-						<a href="#" data-nav-section="events">Eventos</a>
-						<a href="#" data-nav-section="reservation">Reservas</a>
-					</div>
-				</div>
-				
-			</div>
-		</div>
+        <!-- Deseo (Secciones / Beneficios) -->
+        <section class="py-24 px-6 bg-gray-50">
+            <div class="container mx-auto max-w-6xl text-center mb-16">
+                <h2 class="text-4xl font-extrabold mb-4">Para cada ocasión, un detalle único</h2>
+                <p class="text-gray-600 max-w-xl mx-auto">Ideales para eventos sociales y corporativos que buscan salirse de lo común.</p>
+            </div>
+            <div class="container mx-auto max-w-6xl grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white p-10 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-shadow group">
+                    <div class="w-14 h-14 bg-red-50 text-red-500 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-500 group-hover:text-white transition-colors">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9V9a2 2 0 00-2-2M6 12V9a2 2 0 002-2h8"/></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Cumpleaños</h3>
+                    <p class="text-gray-500">La sorpresa perfecta para chicos y grandes. Un toque de parque de diversiones en tu casa.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white p-10 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-shadow group">
+                    <div class="w-14 h-14 bg-yellow-50 text-yellow-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-yellow-500 group-hover:text-white transition-colors">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Corporativos</h3>
+                    <p class="text-gray-500">Ideal para ferias, activaciones de marca y celebraciones empresariales. Branding con sabor.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white p-10 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-shadow group">
+                    <div class="w-14 h-14 bg-blue-50 text-blue-500 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-500 group-hover:text-white transition-colors">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Comercios</h3>
+                    <p class="text-gray-500">Provisión de pochoclo envasado con la misma calidad artesanal para bares y locales.</p>
+                </div>
+            </div>
+        </section>
 
-		<div id="fh5co-about" data-section="about">
-			<div class="fh5co-2col fh5co-bg to-animate-2" style="background-image: url(fotos/pocho.png)"></div>
-			<div class="fh5co-2col fh5co-text">
-				<h2 class="heading to-animate">Acerca de Nosotros</h2>
-				<p class="to-animate"><span class="firstcharacter">D</span>esde chicos nos gustaron las golosinas, pero cuando fuimos padres entendimos que quiza no eran lo mas sano para nuestors hijos... Por eso volvimos a los origenes, a buscar una golosina sana, que le guste a los chicos, pero tambien a los padres</p>
-				<p class="text-center to-animate"><a href="#fh5co-contact"  class="btn btn-primary btn-outline">Contactanos</a></p>
-			</div>
-		</div>
+        <!-- Eventos en los que participamos -->
+        <section class="py-24 px-6 bg-white">
+            <div class="container mx-auto max-w-6xl">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-extrabold mb-4">Algunos eventos en los que participamos</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">Formamos parte de las celebraciones más importantes de la región, llevando calidad y alegría a cada rincón.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Evento 1 -->
+                    <div class="bg-gradient-to-br from-red-50 to-orange-50 p-8 rounded-2xl border border-red-100 hover:shadow-lg transition-shadow">
+                        <div class="w-12 h-12 bg-red-500 text-white rounded-xl flex items-center justify-center mb-6 font-bold">1</div>
+                        <h3 class="text-2xl font-bold mb-2">La Fiesta Provincial del Costillar</h3>
+                        <p class="text-red-600 font-bold mb-4">10, 11 y 12 de Enero, 2025</p>
+                        <p class="text-gray-700 text-sm leading-relaxed">
+                            Se llevó a cabo en la localidad de Vivoratá, en el partido de Mar Chiquita, provincia de Buenos Aires. Una celebración de tres días llena de sabor y tradición.
+                        </p>
+                    </div>
+                    <!-- Evento 2 -->
+                    <div class="bg-gradient-to-br from-yellow-50 to-amber-50 p-8 rounded-2xl border border-yellow-100 hover:shadow-lg transition-shadow">
+                        <div class="w-12 h-12 bg-yellow-500 text-white rounded-xl flex items-center justify-center mb-6 font-bold">2</div>
+                        <h3 class="text-2xl font-bold mb-2">Fiesta del Fogón en Camet Norte</h3>
+                        <p class="text-yellow-700 font-bold mb-4">18 de Enero, 2025</p>
+                        <p class="text-gray-700 text-sm leading-relaxed">
+                            Con entrada libre y gratuita, puestos gastronómicos, artesanos y música en vivo. Una fiesta que cumplió 10 años, organizada por la comunidad junto al municipio en El Paso y la Costa.
+                        </p>
+                    </div>
+                    <!-- Evento 3 -->
+                    <div class="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl border border-blue-100 hover:shadow-lg transition-shadow">
+                        <div class="w-12 h-12 bg-blue-500 text-white rounded-xl flex items-center justify-center mb-6 font-bold">3</div>
+                        <h3 class="text-2xl font-bold mb-2">Fiesta Nacional de la Cerveza Artesanal</h3>
+                        <p class="text-blue-600 font-bold mb-4">17 al 23 de Febrero, 2025</p>
+                        <p class="text-gray-700 text-sm leading-relaxed">
+                            7 días de fiesta con entrada libre y gratuita. Presentaciones destacadas de Valentino Merlo, Mario Luis, Jóvenes Pordioseros, Kapanga y otros artistas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-		<div id="fh5co-sayings">
-			<div class="container">
-				<div class="row to-animate">
+        <!-- CTA Final -->
+        <section class="py-24 px-6 bg-gray-900 text-white overflow-hidden relative">
+            <div class="absolute top-0 right-0 w-64 h-64 bg-red-500/10 rounded-full -translate-y-1/2 translate-x-1/2"></div>
+            <div class="container mx-auto max-w-4xl text-center relative z-10">
+                <h2 class="text-4xl md:text-5xl font-extrabold mb-8 leading-tight">¿Estás listo para darle un <span class="text-yellow-400 italic">plus</span> de sabor a tu evento?</h2>
+                <p class="text-gray-400 text-lg md:text-xl mb-12">
+                    Escribinos hoy mismo y reservá tu fecha. Atendemos en Mar Chiquita, Santa Clara, Santa Elena, Playa Dorada.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                    <a href="https://wa.me/5492234361035" class="btn-whatsapp w-full sm:w-auto px-10 py-5 rounded-2xl font-bold text-xl flex items-center justify-center gap-3">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.246 2.248 3.484 5.232 3.484 8.412-.003 6.557-5.338 11.892-11.893 11.892-1.997-.001-3.951-.5-5.688-1.448l-6.309 1.656zm6.224-3.82l.303.18c1.397.83 3.007 1.27 4.657 1.271 5.033 0 9.13-4.097 9.133-9.134.002-2.438-.946-4.731-2.67-6.456-1.724-1.724-4.015-2.672-6.452-2.672-5.033 0-9.132 4.098-9.134 9.135-.001 1.744.492 3.443 1.424 4.918l.204.323-.814 2.973 3.052-.801z"/></svg>
+                        PEDIR PRESUPUESTO
+                    </a>
+                </div>
+                <div class="mt-12 flex flex-col items-center gap-2">
+                    <p class="text-gray-500 uppercase tracking-widest text-xs font-bold">O por teléfono al</p>
+                    <a href="tel:02234361035" class="text-2xl font-bold hover:text-red-400 transition-colors">(223) 436-1035</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
-					<div class="flexslider">
-						<ul class="slides">
-							
-							<li>
-								<blockquote>
-									<p>&ldquo;Pochoclos que estallan en sabor, recién hechos para cada ocasión&rdquo;</p>
-									<p class="quote-author">&mdash; </p>
-								</blockquote>
-							</li>
-							<li>
-								<blockquote>
-									<p>&ldquo;Dulces o salados, siempre irresistibles. Llevamos la magia del pochoclo a tu negocio, bar, evento o fiesta.&rdquo;</p>
-									<p class="quote-author">&mdash; </p>
-								</blockquote>
-							</li>
-							<li>
-								<blockquote>
-									<p>&ldquo;El snack perfecto para bares o eventos, saborizando la vida, llevamos la experiencia ideal para tus celebraciones.&rdquo;</p>
-									<p class="quote-author">&mdash; </p>
-								</blockquote>
-							</li>
-							<li>
-								<blockquote>
-									<p>&ldquo;Un carro, un show y mucho sabor: pochoclos artesanales en vivo para momentos inolvidables.&rdquo;</p>
-									<p class="quote-author">&mdash; </p>
-								</blockquote>
-							</li>
-							
-							
-						</ul>
-					</div>
+    <!-- Footer -->
+    <footer class="py-12 px-6 border-t border-gray-100 bg-white">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center">
+                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.344l-.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z"/></svg>
+                </div>
+                <span class="font-extrabold text-lg tracking-tighter uppercase italic">Pochoclos Minnie</span>
+            </div>
+            
+            <div class="text-gray-400 text-sm">
+                &copy; 2026 Pochoclos Minnie. Todos los derechos reservados.
+            </div>
 
-				</div>
-			</div>
-		</div>
+            <div class="flex gap-6">
+                <span class="text-gray-600 text-sm font-medium">Mar del Plata &bull; Playa Dorada</span>
+            </div>
+        </div>
+    </footer>
 
-
-		<div id="fh5co-events" data-section="events" style="background-image: url(fotos/evento.jpeg);" data-stellar-background-ratio="0.5">
-			<div class="fh5co-overlay"></div>
-			<div class="container">
-				<div class="row text-center fh5co-heading row-padded">
-					<div class="col-md-8 col-md-offset-2 to-animate">
-						<h2 class="heading">Eventos</h2>
-						<p class="sub-heading">Eventos en los que participamos.</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="fh5co-event to-animate-2">
-							<h3>La Fiesta Provincial del Costillar</h3>
-							<span class="fh5co-event-meta">10, 11 y 12 de Enero, 2025.</span>
-							<p>La Fiesta Provincial del Costillar de Vivoratá se llevó a cabo del 10 al 12 de enero de 2025. Se realizó en la localidad de Vivoratá, en el partido de Mar Chiquita, provincia de Buenos Aires.</p>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="fh5co-event to-animate-2">
-							<h3>Fiesta del Fogón en Camet Norte</h3>
-							<span class="fh5co-event-meta">18 de Enero, 2025</span>
-							<p>Con el acompañamiento de la Municipalidad de Mar Chiquita y la organización de vecinos y vecinas de la localidad, con entrada libre y gratuita, se realizo la Fiesta del Fogón de Camet Norte.Fue en El Paso y la Costa.
-								De esta manera, vecinos, vecinas y turistas pudieron disfrutar de esta fiesta que cumplio 10 años, organizada por la comunidad junto al municipio. Consto con puestos gastronómicos, artesanos y música en vivo.</p>
-							<!-- <p><a href="#" class="btn btn-primary btn-outline">Read More</a></p> -->
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="fh5co-event to-animate-2">
-							<h3>Fiesta Nacional de la Cerveza Artesanal 2025</h3>
-							<span class="fh5co-event-meta">Del lunes 17 al domingo 23 de febrero, 2025</span>
-							<p>Con entrada libre y gratuita, se vivieron 7 días a pura fiesta con las presentaciones destacadas de: Valentino Merlo, Mario Luis, Jóvenes Pordioseros, Kapanga, entre otros artistas.</p>
-
-							<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#imageModal">
-								Ver Más
-							</button>
-							 -->
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		
-				<!-- Modal -->
-		<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
-						<h4 class="modal-title" id="imageModalLabel">Imagen Destacada</h4>
-					</div>
-					<div class="modal-body text-center">
-						<img src="fotos/cerveza2025.jpeg" alt="Imagen Fiesta cerveza" class="modal-img img-responsive">
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div id="fh5co-contact" data-section="reservation">
-			<div class="container">
-				<div class="row text-center fh5co-heading row-padded">
-					<div class="col-md-8 col-md-offset-2">
-						<h2 class="heading to-animate">Reserva para tu evento</h2>
-						<p class="sub-heading to-animate">Consultanos, tenemos distintos planes Muy Economicos para que puedas contar con Pochoclos Artesanales Realizados en el momento en tu evento. Nos movemos por todo el partido de Mar Chiquita y llegamos a disitntos lugares de General Pueyrredón</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 to-animate-2">
-						<h3>Contacto</h3>
-						<ul class="fh5co-contact-info">
-							<li class="fh5co-contact-address ">
-								<i class="icon-home"></i>
-								El Carpintero y el Gorrion, <br>Playa Dorada, Mar Chiquita.
-							</li>
-							<li><i class="icon-phone"></i> (2234) 36-1035</li>
-							<!-- <li><i class="icon-envelope"></i>info@freehtml5.co</li> -->
-							<li><i class="icon-globe"></i> <a href="https://pochoclosminnie.com.ar/" target="_blank">pochoclosminnie.com.ar</a></li>
-						</ul>
-					</div>
-		
-			</div>
-		</div>
-
-		
-	</div>
-
-	<div id="fh5co-footer">
-		<div class="container">
-			<div class="row row-padded">
-				<div class="col-md-12 text-center">
-					<p class="to-animate"><br> Designed by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <br> Tasty Icons Free <a href="http://handdrawngoods.com/store/tasty-icons-free-food-icons/" target="_blank">handdrawngoods</a>
-					</p>
-					<p class="text-center to-animate"><a href="#" class="js-gotop">Go To Top</a></p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<!-- <ul class="fh5co-social">
-						<li class="to-animate-2"><a href="#"><i class="icon-facebook"></i></a></li>
-						<li class="to-animate-2"><a href="#"><i class="icon-twitter"></i></a></li>
-						<li class="to-animate-2"><a href="#"><i class="icon-instagram"></i></a></li>
-					</ul> -->
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	
-	
-	
-	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Bootstrap DateTimePicker -->
-	<script src="js/moment.js"></script>
-	<script src="js/bootstrap-datetimepicker.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
-
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<script>
-		$(function () {
-	       $('#date').datetimepicker();
-	   });
-	</script>
-	<!-- Main JS -->
-	<script src="js/main.js"></script>
-
-	</body>
+</body>
 </html>
-
